@@ -1,0 +1,26 @@
+{
+    "name": "Random Jokes",
+    "version": "1.0",
+    "manifest_version": 3,
+    "description": "This extension will show you random jokes. Switch on the extension and enjoy the jokes. Developed by: Muhammad Sameer",
+   
+    "permissions": [
+        "activeTab",
+        "declarativeContent"
+    ],
+
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "logo.png",
+            "48": "logo.png",
+            "128": "logo.png"
+        }
+    },
+
+    "icons": {
+        "16": "logo.png",
+        "48": "logo.png",
+        "128": "logo.png"
+    }
+}
